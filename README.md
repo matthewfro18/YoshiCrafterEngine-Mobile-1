@@ -1,53 +1,139 @@
-# Friday Night Funkin' - Codename Engine Mobile (WIP)
+# ⚠⚠ THIS ENGINE IS OUTDATED ⚠⚠
+## Use [Codename Engine](https://www.github.com/YoshiCrafter29/CodenameEngine) instead.
 
-## PLEASE NOTE - THIS IS STILL IN A BETA STATE
-### Mods created with beta versions of Codename may not be compatible with the release version
-Known issues in the beta:
-- Some options are missing
+**This project is over a year old, the code is HORRIBLE and the optimisation is HORRIBLE.**
 
-## Codename Engine
+**I don't wanna be affiliated with this old project of mine anymore. Use Codename instead. It actually have GOOD code, runs WELL (unlike yce), and have GOOD modding support.**
 
-Codename Engine is a new Friday Night Funkin' Engine aimed at simplifying modding, along with extensiblity and ease of use.<br>
-Make sure to read the wiki and join the Discord server linked there!<br>
-#### It includes many new features, as seen [here](https://github.com/FNF-CNE-Devs/CodenameEngine/blob/main/FEATURES.md)<br>
-#### Wanna see the new features added in the most recent update? Click [here](PATCHNOTES.md)<br>
+Using YoshiCrafter Engine in its current state would leave you with a lot of problems, including, but not limiting to:
+- **Memory Leaks**: Playing it for too long would simply make the memory goes up more and more. Literally, don't try to fix it.
+- **Bad Source**: It's really bad, don't even start digging into it.
+- **Bad Organisation**: The files aren't sorted out into packages, unlike Codename Engine.
+- **Bad Optimisation**: The engine runs poorly on lower end computers, and is obsolete. Codename highly improves on this point.
+- **Bad modding support**: You can edit one state but not another? Why? Codename also improved on this.
+- **Literally every engine combined**: Literally if you took Psych, Kade and Modding+ and combined them together. There's goods, but also bads. A lot of bads.
+- **No source support**: Wanna mod in source? Go fuck yourself! The engine was never intended to be modded in source, unlike Codename which has source support and multiple defines to customise the engine the way you want for your mod.
 
-## How to download
+### I made Codename to fix all of those issues that prevented modders from actually achieving something good. Use it instead, or use YCE at your own risk.
 
-Latest builds for the engine can be found in the [Actions](https://github.com/MobilePorting/CodenameEngine-Mobile/actions) tab.<br>
-In the future (when the engine won't be a WIP anymore) we're gonna also publish the engine on platforms like Gamebanana; stay tuned!
+** **
 
-<details>
-  <summary><h2>What can you do or not do</h2></summary>
+** **
 
-  ### You can:
-  - Download and play the engine with its mods and modpacks
-  - Mod and fork the engine (without using it for illicit purposes)
-  - Contribute to the engine (for example through *Pull Requests*, *Issues*, etc)
-  - Create a sub engine with Codename Engine as **TEMPLATE** with **CREDITS** (for example leaving the *credits menu submenu with the GitHub contributors* and putting the *[main devs](https://github.com/FNF-CNE-Devs)* in a *README* specifying that it's a *sub engine from Codename Engine*)
-  - Release excutable mods that use Codename Engine as source (Specifing that uses Codename Engine by for example the same way written above this)
-  - Release modpacks
+** **
 
-  ### You can't:
-  - Create a *side/new/etc* engine (or mod that doesn't use Codename Engine) using Codename Engine's code
-  - Steal code from Codename Engine for another different project that is not Codename Engine related (Codename Engine mods excluded) without properly crediting
-  - Release the entire Codename Engine on platforms (Mods that use Codename Engine as source are fine, if it's specified even better)
+---
 
-  #### *If you need more info or feel like asking to do something which is not listed here, ask us directly on our discord (linked in the wiki)!*
-</details>
+# Friday Night Funkin' - YoshiCrafter Engine
+![YoshiCrafter Engine logo](art/banner_new.png)
 
-<details>
-  <summary><h2>Mobile Credits</h2></summary>
+## Say hi to YoshiCrafter Engine, the new moddable FNF engine.
 
-- Credits to [Karim Akra](https://youtube.com/@Karim0690) to porting the engine
-- Credits to [MAJigsaw77](https://github.com/MAJigsaw77) for mobile controls
-</details>
+This is a modification for the game Friday Night Funkin', a game originally made for Ludum Dare 47 "Stuck In a Loop".
 
-<details>
-  <summary><h2>Credits</h2></summary>
+> Uh oh! Your tryin to kiss ur hot girlfriend, but her MEAN and EVIL dad is trying to KILL you! He's an ex-rockstar, the only way to get to his heart? The power of music...
 
-- Credits to [Ne_Eo](https://twitter.com/Ne_Eo_Twitch) and the [3D-HaxeFlixel](https://github.com/lunarcleint/3D-HaxeFlixel) repository for Away3D Flixel support
-- Credits to the [FlxAnimate](https://github.com/Dot-Stuff/flxanimate) team for the Animate Atlas support
-- Credits to Smokey555 for the backup Animate Atlas to spritesheet code
-- Credits to MAJigsaw77 for [hxvlc](https://github.com/MAJigsaw77/hxvlc) (video cutscene/mp4 support) and [hxdiscord_rpc](https://github.com/MAJigsaw77/hxdiscord_rpc) (discord rpc integration
-</details>
+---
+## The engine documentation is [here](https://yoshicrafter29.github.io/YoshiCrafterEngine-Doc/) (in construction).
+
+## Here's a (non complete) list of YoshiCrafter Engine's functionnalities :
+- **Full mod support (non source)**
+	- Scripting in:
+		* HScript
+		* Lua
+	- Songs
+	- Characters
+	- Stages
+	- Custom notes
+	- Cutscenes
+	- Weeks
+	- Credits
+	- Shaders
+	- States (& SubStates)
+- **Customization**
+	- Custom keybinds
+	- Downscroll
+	- Custom scroll speed
+	- GUI scale
+	- **GUI Options**
+		- Accuracy mode
+		- Text quality level
+		- Timer
+		- Press delay
+		- Accuracy
+		- Number of misses
+		- Average hit delay
+		- Rating
+		- Animated info bar
+	- Custom note colors
+	- Custom note skins
+	- Custom Boyfriend skins
+	- Custom Girlfriend skins
+- Botplay
+- Green Screen Mode
+- New charter
+- Freeplay Statistics
+- `.ycemod` file extension (to make mod installation easier)
+- **Developer Mode**
+	- In game logs
+	- Refresh assets
+	- Access to a lot of features, such as the Toolbox.
+- **[And much more...](https://twitter.com/FNFYoshiEngine/status/1520872102680838174?s=20&t=ZHabd-AKO4VSgplsAlAxGA)**
+
+## Developers & Helpers
+- **[YoshiCrafter29](https://www.twitter.com/YoshiCrafter29)** - Main Developer
+- **[siivkoi](https://www.twitter.com/sillysil220)** - Animator (+ helped on some stuff)
+- **[CaptainKirby](https://www.twitter.com/cap_kirby)** - YouTube tutorials for the engine
+- **[KiyuuuSama](https://www.twitter.com/KiyuuuSama)** - Made the logo & some of the credits icons
+
+## Original Game Developers
+- **[ninjamuffin99](https://twitter.com/ninja_muffin99)** - Programmer
+- **[PhantomArcade3K](https://twitter.com/phantomarcade3k)** and [Evilsk8r](https://twitter.com/evilsk8r) - Art
+- **[Kawaisprite](https://twitter.com/kawaisprite)** - Musician
+
+## Special Thanks
+- **[PolybiusProxy](https://www.twitter.com/polybiusproxy)** - MP4 Cutscene Support
+- **[Smokey_5_](https://www.twitter.com/Smokey_5_)** - Adobe Animate Atlas support
+- And all of the contributors.
+
+---
+# Mod Installation
+## How to install a mod (`.ycemod` format)
+### If you have YoshiCrafter Engine
+1. Double-click the downloaded .ycemod file (open it)
+2. Press Enter on the installation screen
+3. Enjoy!
+### If don't have YoshiCrafter Engine
+1. Install and launch the engine
+2. Go to the Mods menu
+3. Drag & Drop the `.ycemod` file on the game.
+4. Press enter on the installation screen
+5. Enjoy!
+
+## How to install a mod (`.zip` or `.rar`)
+1. Open the `mods` folder.
+2. Extract the mod here.
+3. Enjoy! (No restart needed)
+
+---
+# How to build the engine
+
+> ⚠ **This engine was specifically made for soft coding (mods folder), and so, modding via source is NOT recommended. We'll not provide any help for any issue you encounter while modding from source.**
+
+To build from source, it's pretty simple:
+- Install [Haxe](https://haxe.org/download/) (make sure to use the latest version!!)
+- Install [HaxeFlixel](https://haxeflixel.com/documentation/install-haxeflixel/)
+- Run `config.bat` to get every requirement installed
+- Execute `lime test windows` or `lime build windows` to build the engine.
+--- 
+# Friday Night Funkin'
+
+This is the repository for Friday Night Funkin, 
+
+Play the Ludum Dare prototype here: https://ninja-muffin24.itch.io/friday-night-funkin
+Play the Newgrounds one here: https://www.newgrounds.com/portal/view/770371
+Support the project on the itch.io page: https://ninja-muffin24.itch.io/funkin
+
+IF YOU MAKE A MOD AND DISTRIBUTE A MODIFIED / RECOMPILED VERSION, YOU MUST OPEN SOURCE YOUR MOD AS WELL
+
+This game was made with love to Newgrounds and its community. Extra love to Tom Fulp.
